@@ -5,3 +5,6 @@ build:
 
 test_auth:
 	curl -X POST -H "Content-Type: application/json" -d '{"username":"admin","password":"password123"}' http://localhost:8000/api-token-auth/
+
+install_selenium_standalone:
+	./frontend/node_modules/.bin/selenium-standalone install

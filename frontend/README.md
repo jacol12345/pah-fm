@@ -20,6 +20,10 @@ npm run build
 npm run test
 ```
 
+### Run e2e tests
+Install selenium-standalone
+```make install_selenium_standalone```
+
 ### Lints and fixes files
 ```
 npm run lint
